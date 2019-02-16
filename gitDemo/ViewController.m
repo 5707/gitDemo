@@ -22,6 +22,12 @@
     
     
 }
-
+- (void)setTextStr:(NSString *)textStr
+{
+    if (textStr)
+    {
+        _textStr = textStr;
+    }
+}
 
 @end
