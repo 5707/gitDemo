@@ -29,5 +29,14 @@
         _textStr = textStr;
     }
 }
+- (UIImageView *)imgView
+{
+    if (!_imgView)
+    {
+        _imgView = [[UIImageView alloc]initWithFrame:self.view.bounds];
+        _imgView.backgroundColor = [UIColor purpleColor];
+    }
+    return _imgView;
+}
 
 @end

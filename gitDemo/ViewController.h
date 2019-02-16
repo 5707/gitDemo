@@ -12,5 +12,8 @@
 
 @property(nonatomic,copy) NSString *textStr;
 
+
+@property(nonatomic,strong)UIImageView *imgView;
+
 @end
 
