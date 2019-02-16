@@ -12,6 +12,7 @@
 
 @property(nonatomic,copy) NSString *textStr;
 
+@property(nonatomic,copy) NSString *gitStr;
 
 @property(nonatomic,strong)UIImageView *imgView;
 

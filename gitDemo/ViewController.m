@@ -20,7 +20,7 @@
     
     NSLog(@"==================");
     
-    
+    NSLog(@"=====github=============");
 }
 - (void)setTextStr:(NSString *)textStr
 {
@@ -38,5 +38,11 @@
     }
     return _imgView;
 }
-
+- (void)setGitStr:(NSString *)gitStr
+{
+    if(gitStr)
+    {
+        _gitStr = gitStr;
+    }
+}
 @end
